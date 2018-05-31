@@ -1,18 +1,21 @@
 .Title-center {
-    padding: 0px;
     margin: 0px;
-    text-align: center;
+    padding: 20px 20px 0 15px;
+    float: left;
+    font-size: 20px;
 }
 
 header {
-    background: rgba(191, 215, 221, 0.781);
     margin: 0;
+    width: 100%;
+    padding: 0;
 }
 
 body,
 html {
     height: 100%;
     margin: 0;
+    padding: 0;
 }
 
 .Background-Image {
@@ -23,21 +26,38 @@ html {
     height: auto;
 }
 
+.nav-bar {
+    position: relative;
+    background-color: rgba(191, 215, 221, 0.781);
+    width: 100%;
+    display: inline-block;
+    margin: 0 0 15px 0;
+}
+
 .nav-links ul li {
     display: inline;
-    padding: 2px;
-    margin: 2px;
-    background: black;
     color: white;
-    font-size: 14px;
+    font-size: 18px;
+    margin: 10px 5px 0 0;
 }
 
 .nav-links ul li a {
     text-align: center;
+    text-decoration: none;
 }
 
 .nav-links ul li a:visited {
     color: white;
+    text-decoration: none;
+}
+
+.nav-links ul li a:hover {
+    color: rgb(68, 143, 143);
+}
+
+.nav-links ul {
+    list-style-type: none;
+    padding: 20px 0 0 0;
 }
 
 #secretMessage {
@@ -53,10 +73,11 @@ html {
 .Main-body {
     align-content: center;
     background: rgb(203, 205, 218);
-    margin: 10px 55px 0 55px;
+    margin: 0px 55px 0 55px;
     border-radius: 5px;
     border: 1px solid;
     border-color: aqua;
+
 }
 
 .Main-body .P-main {
@@ -69,7 +90,7 @@ html {
 }
 
 footer {
-    margin: 100% 0 5px 0;
+    margin: 100% 0 0 0;
     background-color: rgb(140, 140, 243);
 }
 
@@ -105,10 +126,20 @@ button {
     font-size: 18px;
 }
 
-.pic-1 img {
+/*.pic-1 img {
     transform: rotate(90deg);
     float: left;
     width: 10%;
     height: 10%;
     padding: 5px;
+}
+*/
+
+.Fatmata {
+    white-space: nowrap;
+    background-color: rgb(171, 191, 221);
+}
+
+.Fatmata-text {
+    padding: 10px;
 }
