@@ -1,0 +1,114 @@
+.Title-center {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+header {
+    background: rgba(191, 215, 221, 0.781);
+    margin: 0;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.Background-Image {
+    background-image: url("https://c.s-microsoft.com/en-us/CMSImages/DevicesBusiness_Financial_Services_2_HeroPivotPanel_1_Productive_alt_V2.jpg?version=83e01f3e-8552-b963-b04b-d0f9c5c84e03");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.nav-links ul li {
+    display: inline;
+    padding: 2px;
+    margin: 2px;
+    background: black;
+    color: white;
+    font-size: 14px;
+}
+
+.nav-links ul li a {
+    text-align: center;
+}
+
+.nav-links ul li a:visited {
+    color: white;
+}
+
+#secretMessage {
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+}
+
+.nav-links ul {
+    padding: 0 2px 3px 10px;
+}
+
+.Main-body {
+    align-content: center;
+    background: rgb(203, 205, 218);
+    margin: 10px 55px 0 55px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: aqua;
+}
+
+.Main-body .P-main {
+    font-size: 19px;
+}
+
+.P-main {
+    margin: 5px 10px 5px 10px;
+    padding: 3px 0 3px 0;
+}
+
+footer {
+    margin: 100% 0 5px 0;
+    background-color: rgb(140, 140, 243);
+}
+
+button {
+    background: green;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+}
+
+.button-contain {
+    text-align: center;
+    padding: 5px;
+}
+
+.Family {
+    background-color: rgba(157, 158, 170, 0.815);
+    white-space: nowrap;
+    height: auto;
+}
+
+.text-main {
+    margin: 0 0 0 20%;
+}
+
+.Family .P-main {
+    white-space: normal;
+    padding: 0 5px 5px 0;
+    font-size: 18px;
+}
+
+.pic-1 img {
+    transform: rotate(90deg);
+    float: left;
+    width: 10%;
+    height: 10%;
+    padding: 5px;
+}
