@@ -13,7 +13,6 @@ html {
 
 .Background-Image {
     background-image: url("http://www.siradio.net/wp-content/uploads/2018/01/Best-website-designs-attract-more-people-and-improve-business.jpg");
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
@@ -104,9 +103,16 @@ button {
 }
 
 .Family {
-    background-color: rgba(157, 158, 170, 0.815);
-    white-space: nowrap;
+    background-color: rgba(144, 182, 182, 0.815);
     height: auto;
+}
+
+.Family img {
+    transform: rotate(90deg);
+    float: left;
+    width: 30%;
+    height: 30%;
+    padding: 5px;
 }
 
 .text-main {
@@ -114,19 +120,34 @@ button {
 }
 
 .Family .P-main {
-    white-space: normal;
-    padding: 0 5px 5px 0;
+    padding: 0 5px 3px 3px;
     font-size: 18px;
 }
 
-/*.pic-1 img {
-    transform: rotate(90deg);
-    float: left;
-    width: 10%;
-    height: 10%;
+.Family .P-main p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Family img {
+    height: 25%;
+    width: 25%;
+    text-align: left;
     padding: 5px;
 }
-*/
+
+.Uzi {
+    background-color: rgba(142, 43, 255, 0.904);
+}
+
+.Uzi .U-main {
+    text-align: center;
+}
+
+.Uzi img {
+    height: 40%;
+    width: 40%;
+    align-content: left;
+}
 
 .Fatmata {
     white-space: nowrap;
