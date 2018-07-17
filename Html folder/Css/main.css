@@ -1,37 +1,36 @@
-.Title-center {
-    margin: 0px;
-    padding: 20px 20px 0 15px;
-    float: left;
-    font-size: 20px;
-}
-
 body,
 html {
     margin: 0;
     padding: 0;
 }
 
-.Background-Image {
-    background-image: url("http://www.siradio.net/wp-content/uploads/2018/01/Best-website-designs-attract-more-people-and-improve-business.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: auto;
+.title-center {
+    color: black;
+    display: inline-block;
+    font-size: 30px;
 }
 
 .nav-bar {
     position: sticky;
     background-color: rgba(191, 215, 221, 0.781);
     width: 100%;
-    display: inline-block;
-    margin: 0 0 15px 0;
+    margin: 0 0 0 0;
+    padding: 0;
     top: 0;
+    display: inline-block;
+}
+
+.nav-links ul {
+    padding: 0 2px 3px 10px;
+    display: inline-block;
+    margin: 0;
 }
 
 .nav-links ul li {
     display: inline;
     color: white;
     font-size: 18px;
-    margin: 10px 5px 0 0;
+    padding: 0 8px 0 0;
 }
 
 .nav-links ul li a {
@@ -50,7 +49,22 @@ html {
 
 .nav-links ul {
     list-style-type: none;
-    padding: 20px 0 0 0;
+}
+
+.Intro {
+    background-image: url("http://www.siradio.net/wp-content/uploads/2018/01/Best-website-designs-attract-more-people-and-improve-business.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    margin: 0 0 10px 0;
+    padding: 0 0 20% 0;
+}
+
+.Intro-txt h1 {
+    color: rgb(33, 36, 36);
+    font-size: 35px;
+    margin: 15% 15px 15px 10%;
+    display: inline-block;
 }
 
 #secretMessage {
@@ -59,26 +73,19 @@ html {
     color: blue;
 }
 
-.nav-links ul {
-    padding: 0 2px 3px 10px;
-}
-
 .Main-body {
-    align-content: center;
-    background: rgb(203, 205, 218);
-    margin: 0px 55px 0 55px;
-    border-radius: 5px;
-    border: 1px solid;
-    border-color: aqua;
+    margin: 0 5% 10px 5%;
 }
 
-.Main-body .P-main {
-    font-size: 19px;
+.Main-body p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 20px;
+   
 }
 
 .P-main {
-    margin: 5px 10px 5px 10px;
-    padding: 3px 0 3px 0;
+
 }
 
 footer {
@@ -104,14 +111,11 @@ button {
 
 .Family {
     background-color: rgba(144, 182, 182, 0.815);
-    height: auto;
+    height: 100%;
 }
 
 .Family img {
-    transform: rotate(90deg);
     float: left;
-    width: 30%;
-    height: 30%;
     padding: 5px;
 }
 
@@ -119,13 +123,10 @@ button {
     margin: 0 0 0 20%;
 }
 
-.Family .P-main {
-    padding: 0 5px 3px 3px;
-    font-size: 18px;
-}
-
-.Family .P-main p {
+.Family p {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
 }
 
 .Family img {
@@ -139,9 +140,7 @@ button {
     background-color: rgba(142, 43, 255, 0.904);
 }
 
-.Uzi .U-main {
-    text-align: center;
-}
+.Uzi .U-main {}
 
 .Uzi img {
     height: 40%;
